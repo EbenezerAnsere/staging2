@@ -1,0 +1,83 @@
+[
+  {
+    "description": "     organization administrator should upload bulk skills",
+    "keyword": "Feature",
+    "name": "Upload Bulk Skills",
+    "line": 1,
+    "id": "upload-bulk-skills",
+    "tags": [],
+    "uri": "bulk_skill_upload.feature",
+    "elements": [
+      {
+        "id": "upload-bulk-skills;should-create-a-skill.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should create a skill.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 4750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 5715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Open the skill management page",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on the bulk skill upload button",
+            "result": {
+              "status": "passed",
+              "duration": 1438000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

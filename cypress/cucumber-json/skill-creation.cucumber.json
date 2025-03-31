@@ -1,0 +1,103 @@
+[
+  {
+    "description": "     organization administrator should perform this action.",
+    "keyword": "Feature",
+    "name": "Skill Creation",
+    "line": 1,
+    "id": "skill-creation",
+    "tags": [],
+    "uri": "skill-creation.feature",
+    "elements": [
+      {
+        "id": "skill-creation;should-create-a-skill.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should create a skill.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 5516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Open the skill management page",
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "click on Create New Button",
+            "result": {
+              "status": "passed",
+              "duration": 615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Fill the skill creation form",
+            "result": {
+              "status": "passed",
+              "duration": 1974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Select the assessment type from the list",
+            "result": {
+              "status": "passed",
+              "duration": 1421000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

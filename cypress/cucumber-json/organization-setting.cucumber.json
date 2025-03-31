@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    Organization administrator should be able to configure existing Organization before updating them.",
+    "keyword": "Feature",
+    "name": "Organization Settings",
+    "line": 1,
+    "id": "organization-settings",
+    "tags": [],
+    "uri": "organization-setting.feature",
+    "elements": [
+      {
+        "id": "organization-settings;should-update-existing-organization",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should update existing organization",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 4276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 4525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Profile Icon is present",
+            "result": {
+              "status": "passed",
+              "duration": 6533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Modify existing organization with new information",
+            "result": {
+              "status": "passed",
+              "duration": 4291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Select system quesion",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Update existing organization",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

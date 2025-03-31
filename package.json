@@ -1,0 +1,39 @@
+{
+  "name": "stagingdodokpoproject2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npx cypress open": "npx cypress open",
+    "npx cypress run": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --headed --browser chrome",
+    "cy:run:firefox": "npx cypress run --headed --browser firefox",
+    "cy:run:edge": "npx cypress run --headed --browser edge",
+    "cy:run-dashboard": "npx cypress run --record --key 6244d673-eeac-438d-bd1a-b8572704fcae",
+    "start-jenkins-server": "java -jar jenkins.war --httpPort=9010 --enable-future-java"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "cypress": "^14.0.3",
+    "multiple-cucumber-html-reporter": "^3.9.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber-tests",
+    "cucumberJson": {
+      "generate": true
+    },
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReport/result.csv"
+    }
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "exceljs": "^4.4.0"
+  }
+}

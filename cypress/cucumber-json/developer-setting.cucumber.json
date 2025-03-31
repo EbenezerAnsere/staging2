@@ -1,0 +1,83 @@
+[
+  {
+    "description": "     Organization administrator should generate API Keys",
+    "keyword": "Feature",
+    "name": "Developer Setting",
+    "line": 1,
+    "id": "developer-setting",
+    "tags": [],
+    "uri": "developer-setting.feature",
+    "elements": [
+      {
+        "id": "developer-setting;should-generate-api-keys",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "should generate API Keys",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Profile Icon is present",
+            "result": {
+              "status": "passed",
+              "duration": 4476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Select Developer Settings",
+            "result": {
+              "status": "passed",
+              "duration": 1555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify API Documentation",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

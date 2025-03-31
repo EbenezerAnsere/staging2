@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Should create a domain using the given create new domain button",
+    "keyword": "Feature",
+    "name": "Create A Domain",
+    "line": 1,
+    "id": "create-a-domain",
+    "tags": [],
+    "uri": "create-domain.feature",
+    "elements": [
+      {
+        "id": "create-a-domain;should-create-a-domain",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should create a domain",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Open a test management",
+            "result": {
+              "status": "undefined",
+              "duration": 1150000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
