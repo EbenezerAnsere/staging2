@@ -23,7 +23,7 @@ module.exports = defineConfig({
 		defaultCommandTimeout: 60000,
 
 		viewportHeight: 900,
-		viewportWidth: 1300
+		viewportWidth: 1300,
 
 		
 	},
