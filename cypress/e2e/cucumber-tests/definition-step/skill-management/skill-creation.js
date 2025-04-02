@@ -12,8 +12,6 @@ import SkillCreationFormPage from "../../../../PageObject/skill_creation_form";
 import Assessment_Assignment from "../../../../PageObject/Assessment_Assignment";
 import { faker } from '@faker-js/faker';
 
-import getDataSkill from "../../../../fixtures/skill.json"
-
 const landingpage = new LandingPage();
 const dashboard = new Dashboard();
 const testmanagement = new TestManagementTab();

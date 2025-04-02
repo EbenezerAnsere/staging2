@@ -1,5 +1,7 @@
 node_modules
 
+cypress.config.js
+
 cypress.env.json
 
 fixtures/*.json

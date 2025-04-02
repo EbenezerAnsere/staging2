@@ -5,7 +5,7 @@ class SkillCreationFormPage{
         matchHeading: () => cy.get("h1"),
         title: () => cy.get("input[placeholder='Type title here']"),
         description: () => cy.get("#domain-description"),
-        enableNextButton: () => cy.get(".capitalize")
+        enableNextButton: () => cy.get("button[type='button']")
     }
 
     fillSkillForm(title, description){

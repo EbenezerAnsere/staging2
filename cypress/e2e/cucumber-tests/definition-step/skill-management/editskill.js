@@ -2,23 +2,24 @@
 
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
+
 import loginData from "../../../../fixtures/example.json";
 import Dashboard from "../../../../PageObject/Dashboard";
 import LandingPage from "../../../../PageObject/LandingPage";
 import TestManagementTab from "../../../../PageObject/testmanagement";
 import SkillManagement from "../../../../PageObject/skill";
-import LevelCreation from "../../../../PageObject/Skill_Level";
-import CreateLevel from "../../../../PageObject/Create_Level";
-import { faker } from '@faker-js/faker';
+import EditSkill from "../../../../PageObject/edit_skill";
+import EditModeSkill from "../../../../PageObject/edimodeskill";
 
+import { faker } from "@faker-js/faker"
 
 
 const landingpage = new LandingPage();
 const dashboard = new Dashboard();
 const testmanagement = new TestManagementTab();
 const skillmanagement = new SkillManagement();
-const levelcreation = new LevelCreation();
-const createlevel = new CreateLevel()
+const editskill = new EditSkill();
+const edimodeskill = new EditModeSkill();
 
 
 
@@ -44,14 +45,16 @@ Given("Open the skill management page", () => {
   skillmanagement.openSkillManagementPage();
 });
 
-When("click on Create New Button", () => {
-  levelcreation.OpenLevelCreationForm();
-});
-
-And("Create a new level", ()=>{
-  const randomLevel = faker.person.jobType()
-  createlevel.saveLevel(randomLevel)
+When("Click menu icon to open the dropdown menu", ()=>{
+  editskill.clickEditSkillButton()
 })
+
+And("Replace some information in the skill form", ()=>{
+  const title = faker.person.jobTitle();
+  const description = faker.person.jobDescriptor()
+   edimodeskill.clickEditModeSkillButton(title, description)
+})
+
 
 
 

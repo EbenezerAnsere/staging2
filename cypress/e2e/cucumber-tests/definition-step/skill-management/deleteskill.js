@@ -7,9 +7,7 @@ import Dashboard from "../../../../PageObject/Dashboard";
 import LandingPage from "../../../../PageObject/LandingPage";
 import TestManagementTab from "../../../../PageObject/testmanagement";
 import SkillManagement from "../../../../PageObject/skill";
-import LevelCreation from "../../../../PageObject/Skill_Level";
-import CreateLevel from "../../../../PageObject/Create_Level";
-import { faker } from '@faker-js/faker';
+import DeleteSkill from "../../../../PageObject/delete_skill";
 
 
 
@@ -17,8 +15,7 @@ const landingpage = new LandingPage();
 const dashboard = new Dashboard();
 const testmanagement = new TestManagementTab();
 const skillmanagement = new SkillManagement();
-const levelcreation = new LevelCreation();
-const createlevel = new CreateLevel()
+const deleteskill = new DeleteSkill();
 
 
 
@@ -44,13 +41,9 @@ Given("Open the skill management page", () => {
   skillmanagement.openSkillManagementPage();
 });
 
-When("click on Create New Button", () => {
-  levelcreation.OpenLevelCreationForm();
-});
-
-And("Create a new level", ()=>{
-  const randomLevel = faker.person.jobType()
-  createlevel.saveLevel(randomLevel)
+When("Click on the three dots to open the dropdown menu", ()=>{
+   deleteskill.clickDeleteSkillButton()
+   deleteskill.confirmationMessage()
 })
 
 
