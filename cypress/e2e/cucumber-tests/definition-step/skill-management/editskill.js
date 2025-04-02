@@ -10,6 +10,7 @@ import TestManagementTab from "../../../../PageObject/testmanagement";
 import SkillManagement from "../../../../PageObject/skill";
 import EditSkill from "../../../../PageObject/edit_skill";
 import EditModeSkill from "../../../../PageObject/edimodeskill";
+import ReplaceAssessmentAssignment from "../../../../PageObject/Replace_Assessment_Assignment";
 
 import { faker } from "@faker-js/faker"
 
@@ -20,6 +21,7 @@ const testmanagement = new TestManagementTab();
 const skillmanagement = new SkillManagement();
 const editskill = new EditSkill();
 const edimodeskill = new EditModeSkill();
+const replaceassessmentassessment = new ReplaceAssessmentAssignment();
 
 
 
@@ -55,6 +57,10 @@ And("Replace some information in the skill form", ()=>{
    edimodeskill.clickEditModeSkillButton(title, description)
 })
 
+When("Deselect the assessment", ()=>{
+  replaceassessmentassessment.replaceAssessment()
+  replaceassessmentassessment.confirmationMessage()
+})
 
 
 

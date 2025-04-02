@@ -2,23 +2,20 @@
 
 
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
+
 import loginData from "../../../../fixtures/example.json";
 import Dashboard from "../../../../PageObject/Dashboard";
 import LandingPage from "../../../../PageObject/LandingPage";
 import TestManagementTab from "../../../../PageObject/testmanagement";
 import SkillManagement from "../../../../PageObject/skill";
-import SkillCreation from "../../../../PageObject/skill_creation";
-import SkillCreationFormPage from "../../../../PageObject/skill_creation_form";
-import Assessment_Assignment from "../../../../PageObject/Assessment_Assignment";
-import { faker } from '@faker-js/faker';
+import DeleteLevel from "../../../../PageObject/Delete_Level";
+
 
 const landingpage = new LandingPage();
 const dashboard = new Dashboard();
 const testmanagement = new TestManagementTab();
 const skillmanagement = new SkillManagement();
-const SkillcreationPage = new SkillCreation();
-const skillcreationformpage = new SkillCreationFormPage();
-const assessmentAssignment = new Assessment_Assignment()
+const deletelevel = new DeleteLevel();
 
 
 
@@ -42,17 +39,10 @@ Given("Open the skill management page", () => {
   skillmanagement.openSkillManagementPage();
 });
 
-When("Open the menu", () => {
-  SkillcreationPage.OpenSkillCreationForm()
-});
-
-And("Fill the skill creation form", () => {
-  const randomTitle = faker.person.jobTitle()
-  const randomDescription = faker.person.jobDescriptor()
-  skillcreationformpage.fillSkillForm(randomTitle, randomDescription)
-});
-
-Then("Select the assessment type from the list", ()=>{
-  assessmentAssignment.saveAssessmentAssignment()
+When("Open the menu and select level", ()=>{
+  deletelevel.openDeleteLevel()
 })
+
+
+
 

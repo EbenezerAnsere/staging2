@@ -10,7 +10,7 @@ class EditModeSkill {
     clickEditModeSkillButton(title, description){
         this.elements.editsmodekilltitle().type(title)
         this.elements.editmodeskilldescription().type(description)
-        // this.elements.nextButton().eq(3).click({force:true})
+        this.elements.nextButton().eq(2).click({force:true})
     }
 
 

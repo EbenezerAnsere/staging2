@@ -2,17 +2,17 @@
   {
     "description": "     organization administrator should perform this action.",
     "keyword": "Feature",
-    "name": "Create Level",
+    "name": "Delete Level",
     "line": 1,
-    "id": "create-level",
+    "id": "delete-level",
     "tags": [],
-    "uri": "level.feature",
+    "uri": "deletelevel.feature",
     "elements": [
       {
-        "id": "create-level;should-create-a-skill.",
+        "id": "delete-level;should-delete-level.",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should create a skill.",
+        "name": "Should delete level.",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3097000000
+              "duration": 3144000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 3235000000
+              "duration": 4063000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 16000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 4345000000
+              "duration": 4815000000
             }
           },
           {
@@ -63,27 +63,17 @@
             "name": "Open the skill management page",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 252000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "click on Create New Button",
+            "name": "Open the menu and select level",
             "result": {
               "status": "passed",
-              "duration": 370000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Create a new level",
-            "result": {
-              "status": "passed",
-              "duration": 1550000000
+              "duration": 941000000
             }
           }
         ]

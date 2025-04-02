@@ -12,7 +12,7 @@ class SkillCreationFormPage{
         this.element.matchHeading().eq(1)
         this.element.title().type(title)
         this.element.description().type(description)
-        this.element.enableNextButton().eq(3).click({force:true})
+        this.element.enableNextButton().eq(2).click({force:true})
     }
 
     

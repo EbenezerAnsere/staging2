@@ -10,6 +10,7 @@ Feature: Edit Skill
          Given Open the skill management page
          When  Click menu icon to open the dropdown menu
          And   Replace some information in the skill form
+         When  Deselect the assessment
 
         
         
