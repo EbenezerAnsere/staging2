@@ -2,17 +2,17 @@
   {
     "description": "     organization administrator should perform this action.",
     "keyword": "Feature",
-    "name": "Create Level",
+    "name": "Create Domain",
     "line": 1,
-    "id": "create-level",
+    "id": "create-domain",
     "tags": [],
-    "uri": "level.feature",
+    "uri": "create_domain.feature",
     "elements": [
       {
-        "id": "create-level;should-create-a-skill.",
+        "id": "create-domain;should-create-a-domain",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should create a skill.",
+        "name": "Should create a domain",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3970000000
+              "duration": 3974000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 3344000000
+              "duration": 4056000000
             }
           },
           {
@@ -53,37 +53,27 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 7260000000
+              "duration": 9353000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Given ",
+            "keyword": "And ",
             "line": 10,
-            "name": "Open the skill management page",
+            "name": "Click on Create New Domain Button",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 126000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "click on Create New Button",
+            "name": "User should be able to create a domain",
             "result": {
               "status": "passed",
-              "duration": 189000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Create a new level",
-            "result": {
-              "status": "passed",
-              "duration": 1704000000
+              "duration": 5111000000
             }
           }
         ]

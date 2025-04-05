@@ -7,17 +7,18 @@ import loginData from "../../../../fixtures/example.json";
 import Dashboard from "../../../../PageObject/Dashboard";
 import LandingPage from "../../../../PageObject/LandingPage";
 import TestManagementTab from "../../../../PageObject/testmanagement";
-import SkillManagement from "../../../../PageObject/skill";
-import DeleteLevel from "../../../../PageObject/Delete_Level";
-import DeleteModeLevel from "../../../../PageObject/Delete_Level1";
+import CreateDomain from "../../../../PageObject/CreateDomain";
+import FillDomainForm from "../../../../PageObject/FillDomainForm";
 
+
+import { faker } from "@faker-js/faker"
+ 
 
 const landingpage = new LandingPage();
 const dashboard = new Dashboard();
 const testmanagement = new TestManagementTab();
-const skillmanagement = new SkillManagement();
-const deletelevel = new DeleteLevel();
-const deletemodelevel = new DeleteModeLevel();
+const createdomain = new CreateDomain();
+const filldomainform = new FillDomainForm();
 
 
 
@@ -37,18 +38,17 @@ When("Click on the test management tab", ()=>{
   testmanagement.openTestManagementTab()
 })
 
-Given("Open the skill management page", () => {
-  skillmanagement.openSkillManagementPage();
-});
-
-When("Open the menu and select level", ()=>{
-  deletelevel.openDeleteLevel()
+And("Click on Create New Domain Button", ()=>{
+    createdomain.opendomaincreationform()
 })
 
-And("Remove the level", ()=>{
-    deletemodelevel.removeLevel()
+When("User should be able to create a domain", ()=>{
+    const domainName = faker.commerce.department()
+    const domainDescription = faker.lorem.paragraph()
+    const domainCategoryName = faker.commerce.department()
+    const domainCategoryDescription = faker.lorem.paragraph()
+    filldomainform.requireDomainForm(domainName, domainDescription, domainCategoryName, domainCategoryDescription)
 })
-
 
 
 

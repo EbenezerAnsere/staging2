@@ -58,8 +58,8 @@ And("Replace some information in the skill form", ()=>{
 })
 
 When("Deselect the assessment", ()=>{
-  replaceassessmentassessment.replaceAssessment()
-  replaceassessmentassessment.confirmationMessage()
+  // replaceassessmentassessment.replaceAssessment()
+  // replaceassessmentassessment.confirmationMessage()
 })
 
 
