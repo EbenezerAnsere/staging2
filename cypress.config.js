@@ -4,9 +4,9 @@ const cucumber = require('cypress-cucumber-preprocessor').default;
 module.exports = defineConfig({
   projectId: '11wbmp',
 
-	// env: {
-    //     URL : "https://amap-staging.amalitech-dev.net"
-	// },
+	env: {
+        URL : "https://amap-staging.amalitech-dev.net"
+	},
 
 	e2e: {
 		setupNodeEvents(on, config) {
