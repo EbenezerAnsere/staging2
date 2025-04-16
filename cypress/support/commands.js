@@ -1,3 +1,7 @@
+
+import 'cypress-file-upload';
+
+
 const myEmail = Cypress.env('email');
 const myPassword =Cypress.env('password');
 

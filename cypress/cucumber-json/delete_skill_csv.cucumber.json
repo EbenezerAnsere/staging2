@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    administrator should delete skill csv file from the organization",
+    "keyword": "Feature",
+    "name": "Delete skill csv file",
+    "line": 1,
+    "id": "delete-skill-csv-file",
+    "tags": [],
+    "uri": "delete_skill_csv.feature",
+    "elements": [
+      {
+        "id": "delete-skill-csv-file;should-delete-skill-when-uploading-csv-file",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should delete skill when uploading csv file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Open test management page using the test management",
+            "result": {
+              "status": "passed",
+              "duration": 4002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Open the skill management page using skill management",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Open the bulk skill upload page using the bulk skill upload button",
+            "result": {
+              "status": "passed",
+              "duration": 10905000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

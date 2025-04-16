@@ -11,7 +11,8 @@
     "cy:run:firefox": "npx cypress run --headed --browser firefox",
     "cy:run:edge": "npx cypress run --headed --browser edge",
     "cy:run-dashboard": "npx cypress run --record --key 6244d673-eeac-438d-bd1a-b8572704fcae",
-    "start-jenkins-server": "java -jar jenkins.war --httpPort=9010 --enable-future-java"
+    "start-jenkins-server": "java -jar jenkins.war --httpPort=9010 --enable-future-java",
+    "begin-jenkins-server": "java -jar jenkins.war --httpPort=8080 --enable-future-java"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@faker-js/faker": "^9.6.0",
     "cypress": "^14.0.3",
+    "cypress-file-upload": "^5.0.8",
     "multiple-cucumber-html-reporter": "^3.9.2"
   },
   "cypress-cucumber-preprocessor": {
@@ -34,6 +36,7 @@
   },
   "dependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "neat-csv": "^7.0.0"
   }
 }

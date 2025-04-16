@@ -27,7 +27,8 @@ module.exports = defineConfig({
 		downloadsFolder: "cypress/downloads",
 		viewportHeight: 900,
 		viewportWidth: 1300,
-		chromeWebSecurity: true
+		chromeWebSecurity: true,
+		allowEpty: true
 
 		
 	},

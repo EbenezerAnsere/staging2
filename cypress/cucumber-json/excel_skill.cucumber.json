@@ -1,0 +1,83 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate information in the excel",
+    "line": 1,
+    "id": "validate-information-in-the-excel",
+    "tags": [],
+    "uri": "excel_skill.feature",
+    "elements": [
+      {
+        "id": "validate-information-in-the-excel;should-validate-information-in-the-excel",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Should validate information in the excel",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 2771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Open the skill management page",
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click on the bulk skill upload button",
+            "result": {
+              "status": "failed",
+              "duration": 71073000000,
+              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find content: 'Skill uploaded successfully' but never did.\n    at UploadBulkSkill.uploadBulkSkill (cypress/PageObject/Upload_Bulk_Skill.js:38:50)\n    at Context.eval (cypress/e2e/cucumber-tests/definition-step/bulk-skill-upload/excel_skill.js:43:19)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118318:20)\n    at tryCatcher (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118329:66)\n    at Context.then (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118580:21)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

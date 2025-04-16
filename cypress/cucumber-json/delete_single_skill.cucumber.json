@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Administrator should delete a single skill line from the skill csv file",
+    "keyword": "Feature",
+    "name": "Delete single skill line",
+    "line": 1,
+    "id": "delete-single-skill-line",
+    "tags": [],
+    "uri": "delete_single_skill.feature",
+    "elements": [
+      {
+        "id": "delete-single-skill-line;should-delete-single-detain-from-the-skill-csv-file",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should delete single detain from the skill csv file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 3017000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Open test management page using the test management",
+            "result": {
+              "status": "passed",
+              "duration": 3747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Open the skill management page using skill management",
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Delete single skill line",
+            "result": {
+              "status": "passed",
+              "duration": 21355000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

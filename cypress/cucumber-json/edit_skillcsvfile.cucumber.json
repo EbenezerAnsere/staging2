@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    In order to edit a skill csv file, it should provide a skill csv file with the following columns",
+    "keyword": "Feature",
+    "name": "Edit skill csv file",
+    "line": 1,
+    "id": "edit-skill-csv-file",
+    "tags": [],
+    "uri": "edit_skillcsvfile.feature",
+    "elements": [
+      {
+        "id": "edit-skill-csv-file;should-edit-skill-csv-file",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should edit skill csv file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2725000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Open a dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Open test management page using the test management",
+            "result": {
+              "status": "passed",
+              "duration": 3377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Open the skill management page using skill management",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Edit single skill line",
+            "result": {
+              "status": "passed",
+              "duration": 21142000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
