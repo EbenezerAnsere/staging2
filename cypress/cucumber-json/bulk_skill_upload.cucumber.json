@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 4761000000
+              "duration": 3046000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 4947000000
+              "duration": 2820000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 3000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 6594000000
+              "duration": 3661000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Open the skill management page",
             "result": {
               "status": "passed",
-              "duration": 326000000
+              "duration": 216000000
             }
           },
           {
@@ -72,9 +72,8 @@
             "line": 11,
             "name": "Click on the bulk skill upload button",
             "result": {
-              "status": "failed",
-              "duration": 72200000000,
-              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find content: 'Skill uploaded successfully' but never did.\n    at UploadBulkSkill.uploadBulkSkill (cypress/PageObject/Upload_Bulk_Skill.js:21:50)\n    at Context.eval (cypress/e2e/cucumber-tests/definition-step/bulk-skill-upload/excel_skill.js:43:19)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118318:20)\n    at tryCatcher (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118329:66)\n    at Context.then (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:118580:21)"
+              "status": "passed",
+              "duration": 11065000000
             }
           }
         ]

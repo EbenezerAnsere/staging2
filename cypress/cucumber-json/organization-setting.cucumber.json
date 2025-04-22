@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 6571000000
+              "duration": 2917000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 6694000000
+              "duration": 2497000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Open a dashboard",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 2000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Profile Icon is present",
             "result": {
               "status": "passed",
-              "duration": 7503000000
+              "duration": 3735000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Modify existing organization with new information",
             "result": {
               "status": "passed",
-              "duration": 6119000000
+              "duration": 2854000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Select system quesion",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 3000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "Update existing organization",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 2000000
             }
           }
         ]

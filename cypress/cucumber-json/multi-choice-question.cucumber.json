@@ -1,0 +1,83 @@
+[
+  {
+    "description": "     Administrator can upload multi-choice question in bulk",
+    "keyword": "Feature",
+    "name": "Upload Multi-Choice Question",
+    "line": 1,
+    "id": "upload-multi-choice-question",
+    "tags": [],
+    "uri": "multi-choice-question.feature",
+    "elements": [
+      {
+        "id": "upload-multi-choice-question;should-upload-multi-choice-question-in-bulk",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should upload multi-choice question in bulk",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 21974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 5141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 11552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Questions should be provided",
+            "result": {
+              "status": "passed",
+              "duration": 1310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Select True or False Question",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

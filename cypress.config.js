@@ -1,5 +1,6 @@
 const { defineConfig } = require('cypress');
 const cucumber = require('cypress-cucumber-preprocessor').default;
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
   projectId: '11wbmp',
@@ -13,6 +14,8 @@ module.exports = defineConfig({
 			// implement node event listeners here
 
 			on('file:preprocessor', cucumber());
+			allureWriter(on, config);
+			return config;
 			
 		},
 		video: true,

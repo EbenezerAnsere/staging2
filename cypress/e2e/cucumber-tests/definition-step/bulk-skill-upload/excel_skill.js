@@ -28,7 +28,7 @@ When("Enter valid credentials", () => {
 });
 
 Then("Open a dashboard", () => {
-  // dashboard.dashboard().should("be.visible");
+  dashboard.dashboard().should("be.visible");
 });
 
 When("Click on the test management tab", ()=>{
