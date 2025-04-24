@@ -1,18 +1,18 @@
 [
   {
-    "description": "     Administrator can upload true or false question in bulk",
+    "description": "    Administrators can delete True or False Question format CSV files from both the entire applications.",
     "keyword": "Feature",
-    "name": "True or False Question",
+    "name": "Delete True Or False Question format CSV file, checking a emply section.",
     "line": 1,
-    "id": "true-or-false-question",
+    "id": "delete-true-or-false-question-format-csv-file,-checking-a-emply-section.",
     "tags": [],
-    "uri": "true_or_false-question.feature",
+    "uri": "delete_true_or_false_question.feature",
     "elements": [
       {
-        "id": "true-or-false-question;should-upload-true-or-false-questions-in-bulk",
+        "id": "delete-true-or-false-question-format-csv-file,-checking-a-emply-section.;should-delete-true-or-false-question-format-csv-file",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should upload true or false questions in bulk",
+        "name": "Should delete true or false question format csv file",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3070000000
+              "duration": 3554000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 2870000000
+              "duration": 2875000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 6282000000
+              "duration": 6699000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 98000000
             }
           },
           {
@@ -63,17 +63,17 @@
             "name": "Questions should be provided",
             "result": {
               "status": "passed",
-              "duration": 1204000000
+              "duration": 1207000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "Select True or False Question",
+            "name": "Click on the delete icon removing the true or false question format csv file from the application.",
             "result": {
               "status": "passed",
-              "duration": 5318000000
+              "duration": 5211000000
             }
           }
         ]

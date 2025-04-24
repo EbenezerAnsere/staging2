@@ -1,18 +1,18 @@
 [
   {
-    "description": "     Administrator can upload true or false question in bulk",
+    "description": "    Administrators can deletena single  question from the list",
     "keyword": "Feature",
-    "name": "True or False Question",
+    "name": "Delete a single question from the list shown in the table",
     "line": 1,
-    "id": "true-or-false-question",
+    "id": "delete-a-single-question-from-the-list-shown-in-the-table",
     "tags": [],
-    "uri": "true_or_false-question.feature",
+    "uri": "delete_single_question.feature",
     "elements": [
       {
-        "id": "true-or-false-question;should-upload-true-or-false-questions-in-bulk",
+        "id": "delete-a-single-question-from-the-list-shown-in-the-table;should-delete-a-sinlge-question-from-the-list",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should upload true or false questions in bulk",
+        "name": "Should delete a sinlge question from the list",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3070000000
+              "duration": 3302000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 2870000000
+              "duration": 3625000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 6282000000
+              "duration": 6652000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 102000000
             }
           },
           {
@@ -63,17 +63,27 @@
             "name": "Questions should be provided",
             "result": {
               "status": "passed",
-              "duration": 1204000000
+              "duration": 1290000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "Select True or False Question",
+            "name": "Click on the delete button places at the right side",
             "result": {
               "status": "passed",
-              "duration": 5318000000
+              "duration": 6224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "A single question should be deleted from the list shown in the table.",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
             }
           }
         ]
