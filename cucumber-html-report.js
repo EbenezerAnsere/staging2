@@ -1,4 +1,14 @@
 const report = require("multiple-cucumber-html-reporter");
+const executionStartTime = new Date().toLocaleString("en-US", {
+  timeZone: "America/New_York",
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  hour12: true,
+});
 
 report.generate({
   jsonDir: "./cypress/cucumber-json",
@@ -20,9 +30,8 @@ report.generate({
       { label: "Project", value: "Dodokpo Project" },
       { label: "Release", value: "2.0" },
       { label: "Cycle", value: "B11221.34321" },
-      { label: "Execution Start Time", value: "April 14th 2025, 11:40 AM EST" },
-      { label: "Execution End Time", value: "April 14th 2025, 12:30 PM EST" },
+      { label: "Execution Start Time", value: executionStartTime },
+      { label: "Execution End Time", value: executionStartTime },
     ],
   },
-
 });

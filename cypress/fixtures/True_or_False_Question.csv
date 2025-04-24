@@ -1,2 +1,7 @@
 Difficulty_Level,Question_Text,Domain,Category,True_Or_False,Score,Comments
 Beginner,Javascript is used in web development,Programming,Javascript,TRUE,5,This example question will be ignored when uploading. Do not edit or delete it. Kindly start adding your questions from the third row.
+Intermediate,There are two buttons of a mouse.,Programming,Javascript,TRUE,2,
+Advanced,The mouse is used to click a resource on the monitor.,Programming,Javascript,TRUE,2,
+Intermediate,The keyboard is used to drag a key on the monitor.,Programming,Javascript,FALSE,2,
+Beginner,There is one type of software used to run the computer.,Programming,Javascript,FALSE,2,
+Intermediate,Application software is a hardware.,Programming,Javascript,TRUE,1,

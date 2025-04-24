@@ -7,9 +7,11 @@ class LandingPage{
     }
 
     login(email, password){
+        cy.wait(1000)
         this.element.email().type(email)
         this.element.password().type(password)
         this.element.signin().click()
+        
     }
 
 

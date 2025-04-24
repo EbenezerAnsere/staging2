@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3025000000
+              "duration": 3450000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 2855000000
+              "duration": 2999000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 7182000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 3781000000
+              "duration": 148000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Click on Create New Domain Button",
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 141000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "User should be able to create a domain",
             "result": {
               "status": "passed",
-              "duration": 5424000000
+              "duration": 7138000000
             }
           }
         ]
