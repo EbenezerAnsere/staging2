@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 2527000000
+              "duration": 5745000000
             }
           },
           {
@@ -32,8 +32,9 @@
             "line": 7,
             "name": "Fill the login form and click on the login button",
             "result": {
-              "status": "passed",
-              "duration": 2509000000
+              "status": "failed",
+              "duration": 61840000000,
+              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find element: `#email`, but never found it.\n    at Object.email (cypress/PageObject/LandingPage.js:4:25)\n    at LandingPage.login (cypress/PageObject/LandingPage.js:11:21)\n    at Context.eval (cypress/e2e/cucumber-tests/definition-step/bulk-question-upload/multi_choice_question/bulk_multi_choice_question.js:27:14)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:119627:66)"
             }
           },
           {
@@ -42,8 +43,7 @@
             "line": 8,
             "name": "The user should be logged in successfully",
             "result": {
-              "status": "passed",
-              "duration": 6175000000
+              "status": "skipped"
             }
           },
           {
@@ -52,8 +52,7 @@
             "line": 9,
             "name": "Click on the test management tab",
             "result": {
-              "status": "passed",
-              "duration": 109000000
+              "status": "skipped"
             }
           },
           {
@@ -62,8 +61,7 @@
             "line": 10,
             "name": "Click on Create New Domain Button",
             "result": {
-              "status": "passed",
-              "duration": 100000000
+              "status": "skipped"
             }
           },
           {
@@ -72,8 +70,7 @@
             "line": 11,
             "name": "User should be able to create a domain",
             "result": {
-              "status": "passed",
-              "duration": 4237000000
+              "status": "skipped"
             }
           }
         ]

@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 2753000000
+              "duration": 3858000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 2920000000
+              "duration": 3192000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Open a dashboard",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 3000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Open test management page using the test management",
             "result": {
               "status": "passed",
-              "duration": 3083000000
+              "duration": 5275000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Open the skill management page using skill management",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 93000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Open the bulk skill upload page using the bulk skill upload button",
             "result": {
               "status": "passed",
-              "duration": 11064000000
+              "duration": 11819000000
             }
           }
         ]

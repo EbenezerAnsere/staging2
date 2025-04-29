@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Administrators can delete True or False Question format CSV files from both the entire applications.",
+    "keyword": "Feature",
+    "name": "Upload Multi Choice Question format CSV file",
+    "line": 1,
+    "id": "upload-multi-choice-question-format-csv-file",
+    "tags": [],
+    "uri": "bulk_multi_choice_upload.feature",
+    "elements": [
+      {
+        "id": "upload-multi-choice-question-format-csv-file;should-upload-multi-choice-question-format-csv-file",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should upload multi-choice question format csv file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 5740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 10926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User should access the question management page",
+            "result": {
+              "status": "passed",
+              "duration": 1284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User should select the multi choice question radio button",
+            "result": {
+              "status": "passed",
+              "duration": 7523000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

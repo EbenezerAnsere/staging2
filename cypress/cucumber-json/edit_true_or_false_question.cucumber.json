@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    Administrators can delete true or false question from the list",
+    "keyword": "Feature",
+    "name": "Edit true or false questions in the table",
+    "line": 1,
+    "id": "edit-true-or-false-questions-in-the-table",
+    "tags": [],
+    "uri": "edit_true_or_false_question.feature",
+    "elements": [
+      {
+        "id": "edit-true-or-false-questions-in-the-table;should-true-or-false-questions-in-the-table",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should true or false questions in the table",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 4644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 11188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Questions should be provided",
+            "result": {
+              "status": "passed",
+              "duration": 1342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on the delete button places at the right side",
+            "result": {
+              "status": "passed",
+              "duration": 5924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "A true or false question should be edit",
+            "result": {
+              "status": "passed",
+              "duration": 2241000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

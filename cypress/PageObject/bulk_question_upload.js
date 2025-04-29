@@ -5,7 +5,7 @@ class MultipleChoicePage{
         bulkquestionupload: () => cy.get("button[type='button']")
     }
 
-    openQuestionsPage(){
+    AccessQuestionsPage(){
         this.elements.myquestion().eq(1).click({force:true})
         cy.wait(1000)
         this.elements.bulkquestionupload().eq(0).click({force:true})
