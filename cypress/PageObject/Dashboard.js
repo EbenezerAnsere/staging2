@@ -6,6 +6,7 @@ class Dashboard{
     }
 
     dashboard(){
+        cy.wait(4000)
         return this.element.matchName()
     }
 

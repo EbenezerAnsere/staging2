@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 4875000000
+              "duration": 4270000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 3862000000
+              "duration": 2863000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Open a dashboard",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 4000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Open test management page using the test management",
             "result": {
               "status": "passed",
-              "duration": 5842000000
+              "duration": 4567000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Open the skill management page using skill management",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 179000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Delete single skill line",
             "result": {
               "status": "passed",
-              "duration": 22525000000
+              "duration": 21077000000
             }
           }
         ]

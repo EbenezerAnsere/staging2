@@ -10,7 +10,6 @@ import TestManagementTab from "../../../../PageObject/testmanagement";
 import CreateDomain from "../../../../PageObject/CreateDomain";
 import FillDomainForm from "../../../../PageObject/FillDomainForm";
 
-
 import { faker } from "@faker-js/faker"
  
 
@@ -31,7 +30,7 @@ When("Fill the login form and click on the login button", () => {
 });
 
 Then("The user should be logged in successfully", () => {
-  // dashboard.dashboard().should("be.visible");
+  dashboard.dashboard().should("be.visible");
 });
 
 When("Click on the test management tab", ()=>{
