@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
-import LandingPage from '@PageObject/landingpage'
-import Dashboard from '@PageObject/dashboard'
-import ProfileIcon from '@PageObject/profileIcon'
-import Setting from '@PageObject/setting'
+import LandingPage from '../../../../PageObject/landingpage'
+import Dashboard from '../../../../PageObject/Dashboard'
+import ProfileIcon from '../../../../PageObject/ProfileIcon'
+import Setting from '../../../../PageObject/Setting'
 import loginData from '../../../../fixtures/example.json'
 import settingData from '../../../../fixtures/setting.json'
 import { faker } from '@faker-js/faker'

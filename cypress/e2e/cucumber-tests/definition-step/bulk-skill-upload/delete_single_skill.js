@@ -4,11 +4,11 @@ const Excel = require('exceljs')
 
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
-import LandingPage from '@PageObject/landingpage'
-import Dashboard from '@PageObject/dashboard'
-import TestManagementTab from '@PageObject/testmanagement'
-import SkillManagement from '@PageObject/skill'
-import DeleteSingleSkillCSVFile from '@PageObject/delete_single_skill'
+import Dashboard from '../../../../PageObject/Dashboard'
+import LandingPage from '../../../../PageObject/landingpage'
+import TestManagementTab from '../../../../PageObject/testmanagement'
+import SkillManagement from '../../../../PageObject/Skill'
+import DeleteSingleSkillCSVFile from '../../../../PageObject/delete_single_skill'
 import loginData from '../../../../fixtures/example.json'
 
 const landingpage = new LandingPage()
@@ -26,7 +26,7 @@ When('Enter valid credentials', () => {
 })
 
 Then('Open a dashboard', () => {
-	// dashboard.dashboard().should("be.visible");
+	dashboard.dashboard().should("be.visible");
 })
 
 When('Open test management page using the test management', () => {

@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import LandingPage from '../../../../PageObject/landingpage'
-import Dashboard from '@PageObject/dashboard'
-import ProfileIcon from '@PageObject/profileIcon'
-import Setting from '@PageObject/setting'
+import Dashboard from '../../../../PageObject/Dashboard'
+import ProfileIcon from '../../../../PageObject/ProfileIcon'
+import Setting from '../../../../PageObject/Setting'
 import loginData from '../../../../fixtures/example.json'
-import Developer_Setting from '@PageObject/developer_setting'
+import Developer_Setting from '../../../../PageObject/Developer_setting'
 // import settingData from "../../../../fixtures/setting.json";
 const landingpage = new LandingPage()
 const dashboard = new Dashboard()

@@ -3,12 +3,12 @@
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '@PageObject/dashboard'
-import LandingPage from '@PageObject/landingpage'
-import TestManagementTab from '@PageObject/testmanagement'
-import SkillManagement from '@PageObject/skill'
-import DeleteLevel from '@PageObject/delete_Level'
-import DeleteModeLevel from '@PageObject/delete_level1'
+import Dashboard from '../../../../PageObject/Dashboard'
+import LandingPage from '../../../../PageObject/landingpage'
+import TestManagementTab from '../../../../PageObject/testmanagement'
+import SkillManagement from '../../../../PageObject/Skill'
+import DeleteLevel from '../../../../PageObject/Delete_Level'
+import DeleteModeLevel from '../../../../PageObject/Delete_Level1'
 
 const landingpage = new LandingPage()
 const dashboard = new Dashboard()

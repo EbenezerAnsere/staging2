@@ -3,13 +3,13 @@
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '@PageObject/dashboard'
-import LandingPage from '@PageObject/landingpage'
-import TestManagementTab from '@PageObject/testmanagement'
-import SkillManagement from '@PageObject/skill'
-import EditSkill from '@PageObject/edit_skill'
-import EditModeSkill from '@PageObject/edimodeskill'
-import ReplaceAssessmentAssignment from '@PageObject/replace_assessment_assignment'
+import Dashboard from '../../../../PageObject/Dashboard'
+import LandingPage from '../../../../PageObject/landingpage'
+import TestManagementTab from '../../../../PageObject/testmanagement'
+import SkillManagement from '../../../../PageObject/Skill'
+import EditSkill from '../../../../PageObject/edit_skill'
+import EditModeSkill from '../../../../PageObject/edimodeskill'
+import ReplaceAssessmentAssignment from '../../../../../PageObject/replace_assessment_assignment'
 
 import { faker } from '@faker-js/faker'
 
@@ -19,7 +19,7 @@ const testmanagement = new TestManagementTab()
 const skillmanagement = new SkillManagement()
 const editskill = new EditSkill()
 const edimodeskill = new EditModeSkill()
-const replaceassessmentassessment = new ReplaceAssessmentAssignment()
+// const replaceassessmentassessment = new ReplaceAssessmentAssignment()
 
 Given('Navigate to the login page', () => {
 	cy.visit(Cypress.env('baseUrl'))
@@ -30,7 +30,7 @@ When('Fill the login form and click on the login button', () => {
 })
 
 Then('The user should be logged in successfully', () => {
-	dashboard.dashboard().should("be.visible");
+	dashboard.dashboard().should('be.visible')
 })
 
 When('Click on the test management tab', () => {

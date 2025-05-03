@@ -2,13 +2,13 @@
 
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '@PageObject/dashboard'
-import LandingPage from '@PageObject/landingpage'
-import TestManagementTab from '@PageObject/testmanagement'
-import SkillManagement from '@PageObject/skill'
-import SkillCreation from '@PageObject/skill_creation'
-import SkillCreationFormPage from '@PageObject/skill_creation_form'
-import Assessment_Assignment from '@PageObject/assessment_assignment'
+import Dashboard from '../../../../PageObject/Dashboard'
+import LandingPage from '../../../../PageObject/landingpage'
+import TestManagementTab from '../../../../PageObject/testmanagement'
+import SkillManagement from '../../../../PageObject/Skill'
+import SkillCreation from '../../../../PageObject/skill_creation'
+import SkillCreationFormPage from '../../../../PageObject/skill_creation_form'
+import Assessment_Assignment from '../../../../PageObject/Assessment_Assignment'
 import { faker } from '@faker-js/faker'
 
 const landingpage = new LandingPage()
@@ -28,7 +28,7 @@ When('Fill the login form and click on the login button', () => {
 })
 
 Then('The user should be logged in successfully', () => {
-	dashboard.dashboard().should("be.visible");
+	dashboard.dashboard().should('be.visible')
 })
 
 When('Click on the test management tab', () => {
