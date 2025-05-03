@@ -7,7 +7,7 @@ import LandingPage from '../../../../page_object_model/landingpage'
 import TestManagementTab from '../../../../page_object_model/testmanagement'
 import SkillManagement from '../../../../page_object_model/Skill'
 import LevelCreation from '../../../../page_object_model/skill_Level'
-import CreateLevel from '../../../../page_object_model/Create_Level'
+import CreateLevel from '../../../../page_object_model/create_level'
 import { faker } from '@faker-js/faker'
 
 const landingpage = new LandingPage()

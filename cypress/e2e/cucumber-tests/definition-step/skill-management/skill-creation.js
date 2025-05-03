@@ -8,7 +8,7 @@ import TestManagementTab from '../../../../page_object_model/testmanagement'
 import SkillManagement from '../../../../page_object_model/Skill'
 import SkillCreation from '../../../../page_object_model/skill_creation'
 import SkillCreationFormPage from '../../../../page_object_model/skill_creation_form'
-import Assessment_Assignment from '../../../../page_object_model/Assessment_Assignment'
+import Assessment_Assignment from '../../../../page_object_model/assessment_assignment'
 import { faker } from '@faker-js/faker'
 
 const landingpage = new LandingPage()

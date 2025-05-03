@@ -8,7 +8,7 @@ import LandingPage from '../../../../page_object_model/landingpage'
 import TestManagementTab from '../../../../page_object_model/testmanagement'
 import SkillManagement from '../../../../page_object_model/Skill'
 import DeleteLevel from '../../../../page_object_model/Delete_Level'
-import DeleteModeLevel from '../../../../page_object_model/Delete_Level1'
+import DeleteModeLevel from '../../../../page_object_model/Delete_level1'
 
 const landingpage = new LandingPage()
 const dashboard = new Dashboard()
