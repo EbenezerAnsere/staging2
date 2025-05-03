@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3084000000
+              "duration": 3311000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 2838000000
+              "duration": 4034000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 6602000000
+              "duration": 7131000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 124000000
+              "duration": 211000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Questions should be provided",
             "result": {
               "status": "passed",
-              "duration": 1281000000
+              "duration": 1392000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Click on the delete icon removing the true or false question format csv file from the application.",
             "result": {
               "status": "passed",
-              "duration": 5684000000
+              "duration": 6248000000
             }
           }
         ]

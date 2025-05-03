@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Administrator should use the delet button removing one question from the list shown in the table",
+    "keyword": "Feature",
+    "name": "Show Delete Button - Multiple Choice Question",
+    "line": 1,
+    "id": "show-delete-button---multiple-choice-question",
+    "tags": [],
+    "uri": "delete_multiple_choice.feature",
+    "elements": [
+      {
+        "id": "show-delete-button---multiple-choice-question;should-delete-the-question-from-the-list-shown-in-the-table.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should delete the question from the list shown in the table.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 8483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Question Management Service should be accessible",
+            "result": {
+              "status": "passed",
+              "duration": 1504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click the delete icon removing the question from the list shown in the table.",
+            "result": {
+              "status": "passed",
+              "duration": 5891000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

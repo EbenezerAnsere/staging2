@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Administrators can delete True or False Question format CSV files from both the entire applications.",
+    "keyword": "Feature",
+    "name": "Delete Icon",
+    "line": 1,
+    "id": "delete-icon",
+    "tags": [],
+    "uri": "delete_multiple_question.feature",
+    "elements": [
+      {
+        "id": "delete-icon;should-delete-multi-choice-question-format-csv-file",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should delete multi-choice question format csv file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 4301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 8313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Question Management Service should be accessible",
+            "result": {
+              "status": "passed",
+              "duration": 1339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The radio button of a multiple choice question should be selected.",
+            "result": {
+              "status": "passed",
+              "duration": 6954000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

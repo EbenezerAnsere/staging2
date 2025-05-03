@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 4389000000
+              "duration": 5805000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 3287000000
+              "duration": 3588000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 9549000000
+              "duration": 8101000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 111000000
+              "duration": 177000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Questions should be provided",
             "result": {
               "status": "passed",
-              "duration": 1236000000
+              "duration": 1329000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Click on the delete button places at the right side",
             "result": {
               "status": "passed",
-              "duration": 5661000000
+              "duration": 5558000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "A true or false question should be edit",
             "result": {
               "status": "passed",
-              "duration": 2002000000
+              "duration": 2300000000
             }
           }
         ]

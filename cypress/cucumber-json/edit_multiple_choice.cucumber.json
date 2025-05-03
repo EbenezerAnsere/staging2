@@ -1,18 +1,18 @@
 [
   {
-    "description": "    Administrator should use the edit button removing one question from the list shown in the table",
+    "description": "    Administrator should use the delet button removing one question from the list shown in the table",
     "keyword": "Feature",
-    "name": "Edit Button",
+    "name": "Show Edit Button - Multiple Choice Question",
     "line": 1,
-    "id": "edit-button",
+    "id": "show-edit-button---multiple-choice-question",
     "tags": [],
     "uri": "edit_multiple_choice.feature",
     "elements": [
       {
-        "id": "edit-button;should-delete-the-question-from-the-list-shown-in-the-table.",
+        "id": "show-edit-button---multiple-choice-question;should-edit-the-question-from-the-list-shown-in-the-table.",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should delete the question from the list shown in the table.",
+        "name": "Should edit the question from the list shown in the table.",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 2779000000
+              "duration": 4622000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 2853000000
+              "duration": 3964000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 6342000000
+              "duration": 7794000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 187000000
             }
           },
           {
@@ -63,17 +63,17 @@
             "name": "Question Management Service should be accessible",
             "result": {
               "status": "passed",
-              "duration": 1297000000
+              "duration": 1379000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "User click the delete icon removing the question from the list shown in the table.",
+            "name": "User edits each of questions in the table.",
             "result": {
               "status": "passed",
-              "duration": 5930000000
+              "duration": 5956000000
             }
           }
         ]

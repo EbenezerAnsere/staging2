@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 4228000000
+              "duration": 3972000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 3604000000
+              "duration": 3368000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Open a dashboard",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 6000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Profile Icon is present",
             "result": {
               "status": "passed",
-              "duration": 4753000000
+              "duration": 4891000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Select Developer Settings",
             "result": {
               "status": "passed",
-              "duration": 1358000000
+              "duration": 2169000000
             }
           },
           {
