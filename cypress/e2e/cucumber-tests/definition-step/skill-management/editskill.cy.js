@@ -9,7 +9,7 @@ import TestManagementTab from '../../../../page_object_model/testmanagement'
 import SkillManagement from '../../../../page_object_model/Skill'
 import EditSkill from '../../../../page_object_model/edit_skill'
 import EditModeSkill from '../../../../page_object_model/edimodeskill'
-import ReplaceAssessmentAssignment from '../../../../../PageObject/replace_assessment_assignment'
+import ReplaceAssessmentAssignment from '../../../../page_object_model/replace_assessment_assignment'
 
 import { faker } from '@faker-js/faker'
 
