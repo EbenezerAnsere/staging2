@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress');
 const cucumber = require('cypress-cucumber-preprocessor').default;
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+const path = require("path")
 
 module.exports = defineConfig({
   projectId: '11wbmp',
@@ -35,6 +36,11 @@ module.exports = defineConfig({
         retries: {
 			runMode: 3,
 			openMode: 1
+		},
+		resolve: {
+			alias: {
+				"@PageObject": path.resolve(__dirname, "PageObject")
+			}
 		}
 		
 	},
