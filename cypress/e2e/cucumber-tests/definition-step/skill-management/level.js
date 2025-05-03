@@ -2,12 +2,12 @@
 
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '../../../../PageObject/Dashboard'
-import LandingPage from '../../../../PageObject/landingpage'
-import TestManagementTab from '../../../../PageObject/testmanagement'
-import SkillManagement from '../../../../PageObject/Skill'
-import LevelCreation from '../../../../pageObject/skill_Level'
-import CreateLevel from '../../../../PageObject/Create_Level'
+import Dashboard from '../../../../page_object_model/Dashboard'
+import LandingPage from '../../../../page_object_model/landingpage'
+import TestManagementTab from '../../../../page_object_model/testmanagement'
+import SkillManagement from '../../../../page_object_model/Skill'
+import LevelCreation from '../../../../page_object_model/skill_Level'
+import CreateLevel from '../../../../page_object_model/Create_Level'
 import { faker } from '@faker-js/faker'
 
 const landingpage = new LandingPage()

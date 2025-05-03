@@ -2,13 +2,13 @@
 
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '../../../../PageObject/Dashboard'
-import LandingPage from '../../../../PageObject/landingpage'
-import TestManagementTab from '../../../../PageObject/testmanagement'
-import SkillManagement from '../../../../PageObject/Skill'
-import SkillCreation from '../../../../PageObject/skill_creation'
-import SkillCreationFormPage from '../../../../PageObject/skill_creation_form'
-import Assessment_Assignment from '../../../../PageObject/Assessment_Assignment'
+import Dashboard from '../../../../page_object_model/Dashboard'
+import LandingPage from '../../../../page_object_model/landingpage'
+import TestManagementTab from '../../../../page_object_model/testmanagement'
+import SkillManagement from '../../../../page_object_model/Skill'
+import SkillCreation from '../../../../page_object_model/skill_creation'
+import SkillCreationFormPage from '../../../../page_object_model/skill_creation_form'
+import Assessment_Assignment from '../../../../page_object_model/Assessment_Assignment'
 import { faker } from '@faker-js/faker'
 
 const landingpage = new LandingPage()

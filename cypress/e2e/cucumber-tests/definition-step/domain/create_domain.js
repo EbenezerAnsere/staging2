@@ -3,11 +3,11 @@
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '../../../../PageObject/Dashboard'
-import LandingPage from '../../../../PageObject/landingpage'
-import TestManagementTab from '../../../../PageObject/testmanagement'
-import CreateDomain from '../../../../PageObject/CreateDomain'
-import FillDomainForm from '../../../../PageObject/FillDomainForm'
+import Dashboard from '../../../../page_object_model/Dashboard'
+import LandingPage from '../../../../page_object_model/landingpage'
+import TestManagementTab from '../../../../page_object_model/testmanagement'
+import CreateDomain from '../../../../page_object_model/CreateDomain'
+import FillDomainForm from '../../../../page_object_model/FillDomainForm'
 
 import { faker } from '@faker-js/faker'
 

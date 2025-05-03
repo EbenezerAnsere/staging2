@@ -2,11 +2,11 @@
 
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 import loginData from '../../../../../fixtures/example.json'
-import Dashboard from '../../../../../PageObject/Dashboard'
-import LandingPage from '../../../../../PageObject/landingpage'
-import TestManagementTab from '../../../../../PageObject/testmanagement'
-import MultipleChoicePage from '../../../../../PageObject/bulk_question_upload'
-import DeleteMultipleChoiceQuestion from '../../../../../PageObject/Delete_Multiple_Choice_Bulk'
+import Dashboard from '../../../../../page_object_model/Dashboard'
+import LandingPage from '../../../../../page_object_model/landingpage'
+import TestManagementTab from '../../../../../page_object_model/testmanagement'
+import MultipleChoicePage from '../../../../../page_object_model/bulk_question_upload'
+import DeleteMultipleChoiceQuestion from '../../../../../page_object_model/Delete_Multiple_Choice_Bulk'
 
 const landingpage = new LandingPage()
 const dashboard = new Dashboard()

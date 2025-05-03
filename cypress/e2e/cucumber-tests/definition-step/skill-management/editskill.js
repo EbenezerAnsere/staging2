@@ -3,12 +3,12 @@
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 
 import loginData from '../../../../fixtures/example.json'
-import Dashboard from '../../../../PageObject/Dashboard'
-import LandingPage from '../../../../PageObject/landingpage'
-import TestManagementTab from '../../../../PageObject/testmanagement'
-import SkillManagement from '../../../../PageObject/Skill'
-import EditSkill from '../../../../PageObject/edit_skill'
-import EditModeSkill from '../../../../PageObject/edimodeskill'
+import Dashboard from '../../../../page_object_model/Dashboard'
+import LandingPage from '../../../../page_object_model/landingpage'
+import TestManagementTab from '../../../../page_object_model/testmanagement'
+import SkillManagement from '../../../../page_object_model/Skill'
+import EditSkill from '../../../../page_object_model/edit_skill'
+import EditModeSkill from '../../../../page_object_model/edimodeskill'
 import ReplaceAssessmentAssignment from '../../../../../PageObject/replace_assessment_assignment'
 
 import { faker } from '@faker-js/faker'
