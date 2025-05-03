@@ -19,7 +19,7 @@ const testmanagement = new TestManagementTab()
 const skillmanagement = new SkillManagement()
 const editskill = new EditSkill()
 const edimodeskill = new EditModeSkill()
-// const replaceassessmentassessment = new ReplaceAssessmentAssignment()
+const replaceassessmentassessment = new ReplaceAssessmentAssignment()
 
 Given('Navigate to the login page', () => {
 	cy.visit(Cypress.env('baseUrl'))
@@ -52,6 +52,6 @@ And('Replace some information in the skill form', () => {
 })
 
 When('Deselect the assessment', () => {
-	// replaceassessmentassessment.replaceAssessment()
-	// replaceassessmentassessment.confirmationMessage()
+	replaceassessmentassessment.replaceAssessment()
+	replaceassessmentassessment.confirmationMessage()
 })

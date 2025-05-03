@@ -21,7 +21,7 @@ When('Enter valid credentials', () => {
 })
 
 Then('Open a dashboard', () => {
-	// dashboard.dashboard().should("be.visible");
+	dashboard.dashboard().should("be.visible");
 })
 
 Given('Profile Icon is present', () => {
@@ -47,8 +47,8 @@ When('Modify existing organization with new information', () => {
 })
 
 Given('Select system quesion', () => {
-	// setting.checkBox().checked()
-	// setting.checkBox().uncheck().should("be.unchecked")
+	setting.checkBox().checked()
+	setting.checkBox().uncheck().should("be.unchecked")
 })
 
 Then('Update existing organization', () => {
