@@ -23,7 +23,7 @@ When('Fill the login form and click on the login button', () => {
 })
 
 Then('The user should be logged in successfully', () => {
-	dashboard.dashboard().should('be.visible')
+	dashboard.dashboard().should('be.visible').and('have.text', 'Dashboard')
 })
 
 When('Click on the test management tab', () => {
