@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3283000000
+              "duration": 2256000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 3058000000
+              "duration": 2280000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Open a dashboard",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 4018000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Profile Icon is present",
             "result": {
               "status": "passed",
-              "duration": 4861000000
+              "duration": 215000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Modify existing organization with new information",
             "result": {
               "status": "passed",
-              "duration": 4112000000
+              "duration": 3476000000
             }
           },
           {
@@ -72,8 +72,8 @@
             "line": 11,
             "name": "Select system quesion",
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "failed",
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'checked')\n    at Context.eval (cypress/e2e/cucumber-tests/definition-step/configuration-settings/organization-setting.cy.js:50:20)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:119616:20)\n    at tryCatcher (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:119627:66)\n    at Context.then (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:119878:21)\n    at wrapped (https://amap-staging.amalitech-dev.net/__cypress/runner/cypress_runner.js:140155:19)"
             }
           },
           {
@@ -82,8 +82,7 @@
             "line": 12,
             "name": "Update existing organization",
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped"
             }
           }
         ]

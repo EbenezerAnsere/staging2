@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 3572000000
+              "duration": 3613000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 3511000000
+              "duration": 4316000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 8483000000
+              "duration": 6967000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 246000000
+              "duration": 159000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Question Management Service should be accessible",
             "result": {
               "status": "passed",
-              "duration": 1504000000
+              "duration": 1296000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "User click the delete icon removing the question from the list shown in the table.",
             "result": {
               "status": "passed",
-              "duration": 5891000000
+              "duration": 5602000000
             }
           }
         ]

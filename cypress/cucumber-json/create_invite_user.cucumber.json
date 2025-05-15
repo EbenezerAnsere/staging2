@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Administrators should be able to create and invite user through their email.",
+    "keyword": "Feature",
+    "name": "Invite User",
+    "line": 1,
+    "id": "invite-user",
+    "tags": [],
+    "uri": "create_invite_user.feature",
+    "elements": [
+      {
+        "id": "invite-user;should-create-and-invite-user-using-invite-user-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should create and invite user using invite user form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 2460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 6279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the test management tab",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
