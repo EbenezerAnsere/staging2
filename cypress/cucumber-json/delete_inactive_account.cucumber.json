@@ -1,18 +1,18 @@
 [
   {
-    "description": "    Administrators should be able to create and invite user through their email.",
+    "description": "     Administrator should delete an Inactive Account using the given delete option.",
     "keyword": "Feature",
-    "name": "Invite User",
+    "name": "Delete Inactive Account",
     "line": 1,
-    "id": "invite-user",
+    "id": "delete-inactive-account",
     "tags": [],
-    "uri": "create_invite_user.feature",
+    "uri": "delete_inactive_account.feature",
     "elements": [
       {
-        "id": "invite-user;should-create-and-invite-user-using-invite-user-form",
+        "id": "delete-inactive-account;should-delete-an-inactive-account",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should create and invite user using invite user form",
+        "name": "Should delete an inactive account",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 18798000000
+              "duration": 4848000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 7306000000
+              "duration": 3545000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 17947000000
+              "duration": 7926000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the user management tab",
             "result": {
               "status": "passed",
-              "duration": 136000000
+              "duration": 176000000
             }
           },
           {
@@ -63,27 +63,27 @@
             "name": "Open User Management",
             "result": {
               "status": "passed",
-              "duration": 1033000000
+              "duration": 1045000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 11,
-            "name": "Invite User Button should be present",
+            "name": "Delete option should be provided",
             "result": {
               "status": "passed",
-              "duration": 150000000
+              "duration": 200000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 12,
-            "name": "Click on Invite User Button to open the invite user form and fill out all fields",
+            "name": "User clicks on delete option removing an inactive account",
             "result": {
               "status": "passed",
-              "duration": 2472000000
+              "duration": 146000000
             }
           }
         ]

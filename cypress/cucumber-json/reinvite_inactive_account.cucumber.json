@@ -1,18 +1,18 @@
 [
   {
-    "description": "    Administrators should be able to create and invite user through their email.",
+    "description": "    Administrator should be able to reinvite an inactive account using the given reinvite option",
     "keyword": "Feature",
-    "name": "Invite User",
+    "name": "Reinvite Inactive Account",
     "line": 1,
-    "id": "invite-user",
+    "id": "reinvite-inactive-account",
     "tags": [],
-    "uri": "create_invite_user.feature",
+    "uri": "reinvite_inactive_account.feature",
     "elements": [
       {
-        "id": "invite-user;should-create-and-invite-user-using-invite-user-form",
+        "id": "reinvite-inactive-account;should-reinvite-an-inactive-account",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Should create and invite user using invite user form",
+        "name": "Should reinvite an inactive account",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 18798000000
+              "duration": 6595000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 7306000000
+              "duration": 2946000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 17947000000
+              "duration": 14430000000
             }
           },
           {
@@ -53,37 +53,27 @@
             "name": "Click on the user management tab",
             "result": {
               "status": "passed",
-              "duration": 136000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "Open User Management",
-            "result": {
-              "status": "passed",
-              "duration": 1033000000
+              "duration": 132000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
-            "name": "Invite User Button should be present",
+            "line": 10,
+            "name": "Reinvite option should be provided",
             "result": {
               "status": "passed",
-              "duration": 150000000
+              "duration": 804000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
-            "name": "Click on Invite User Button to open the invite user form and fill out all fields",
+            "line": 11,
+            "name": "Click on Reinvite option reinviting the inactive account",
             "result": {
               "status": "passed",
-              "duration": 2472000000
+              "duration": 99000000
             }
           }
         ]

@@ -8,3 +8,6 @@ Feature: Invite User
          Then  The user should be logged in successfully
          When  Click on the user management tab
          Then  Open User Management
+         Given Invite User Button should be present
+         When  Click on Invite User Button to open the invite user form and fill out all fields
+        #  Then  The successful message should display
