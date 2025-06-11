@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 29713000000
+              "duration": 4840000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Fill the login form and click on the login button",
             "result": {
               "status": "passed",
-              "duration": 7366000000
+              "duration": 4622000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "The user should be logged in successfully",
             "result": {
               "status": "passed",
-              "duration": 7359000000
+              "duration": 13311000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Click on the test management tab",
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 112000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Open the skill management page",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 120000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Open the menu",
             "result": {
               "status": "passed",
-              "duration": 352000000
+              "duration": 264000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "Fill the skill creation form",
             "result": {
               "status": "passed",
-              "duration": 1325000000
+              "duration": 985000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "Select the assessment type from the list",
             "result": {
               "status": "passed",
-              "duration": 1375000000
+              "duration": 1019000000
             }
           }
         ]

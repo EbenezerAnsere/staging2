@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Administrator should be able to edit their account using the given edit option",
+    "keyword": "Feature",
+    "name": "Edit Account",
+    "line": 1,
+    "id": "edit-account",
+    "tags": [],
+    "uri": "edit_active_account.feature",
+    "elements": [
+      {
+        "id": "edit-account;should-edit-the-account-before-updating-them.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Should edit the account before updating them.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 7405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fill the login form and click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 3506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user should be logged in successfully",
+            "result": {
+              "status": "passed",
+              "duration": 16840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Click on the user management tab",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Edit option should be provided",
+            "result": {
+              "status": "passed",
+              "duration": 575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User clicks on Edit option to open the edit mode",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

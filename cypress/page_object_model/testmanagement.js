@@ -11,4 +11,4 @@ class TestManagementTab{
 
 }
 
-export default TestManagementTab
+export default TestManagementTab;

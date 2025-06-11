@@ -1,0 +1,43 @@
+[
+  {
+    "description": "     Creation of the coding type question",
+    "keyword": "Feature",
+    "name": "Coding Type Question",
+    "line": 1,
+    "id": "coding-type-question",
+    "tags": [],
+    "uri": "create-coding-type-question.feature",
+    "elements": [
+      {
+        "id": "coding-type-question;should-create-a-coding-type-question",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "should create a coding type question",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Navigate to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2272000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
