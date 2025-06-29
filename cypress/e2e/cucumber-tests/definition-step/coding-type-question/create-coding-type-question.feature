@@ -7,6 +7,7 @@ Feature: Coding Type Question
        When  Enter valid credentials
        Then  User is redirected to the Dashboard
        When  Open test management
+       Given Fill all fields of coding type question
   
       
 

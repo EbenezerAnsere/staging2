@@ -23,7 +23,7 @@
             "name": "Navigate to the login page",
             "result": {
               "status": "passed",
-              "duration": 2568000000
+              "duration": 3006000000
             }
           },
           {
@@ -33,7 +33,37 @@
             "name": "Enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 2272000000
+              "duration": 2305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is redirected to the Dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 2336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Open test management",
+            "result": {
+              "status": "passed",
+              "duration": 1753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Fill all fields of coding type question",
+            "result": {
+              "status": "passed",
+              "duration": 8770000000
             }
           }
         ]

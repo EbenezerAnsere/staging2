@@ -34,8 +34,8 @@ module.exports = defineConfig({
 		chromeWebSecurity: true,
 		allowEpty: true,
         retries: {
-			runMode: 3,
-			openMode: 1
+			// runMode: 3,
+			// openMode: 1
 		},
 		resolve: {
 			alias: {
