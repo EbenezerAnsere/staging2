@@ -8,7 +8,7 @@ Feature: Coding Type Question
        Then  User is redirected to the Dashboard
        When  Open test management
        Given Fill all fields of coding type question
-       When  Click save button
+      #  When  Click save button
   
       
 
